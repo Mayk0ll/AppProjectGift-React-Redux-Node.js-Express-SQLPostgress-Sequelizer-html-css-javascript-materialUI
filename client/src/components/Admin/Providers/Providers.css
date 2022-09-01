@@ -1,0 +1,37 @@
+.providerinfo {
+  display: flex;
+  align-items: center;
+}
+
+.span {
+  margin-left: 20px;
+  text-align: center;
+}
+.containerspan {
+  display: flex;
+  width: 150px;
+  align-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+  text-align: center;
+}
+.containerspanid {
+  display: flex;
+  width: 50px;
+  align-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+  text-align: center;
+}
+.containerspandescription {
+  width: 300px;
+}
+
+/* styles buttons active */
+
+.Active {
+  background-color: #ff6f00 !important;
+}
+.Disabled {
+  background-color: rgb(97, 97, 97) !important;
+}

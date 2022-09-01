@@ -1,0 +1,51 @@
+.footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerFooter {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  color: white;
+  margin-top: 0.5rem;
+}
+.containerCopyright {
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+.containerHenry {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.containerCreators {
+  text-align: center;
+}
+
+.enlaces {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) and (min-width: 1px) {
+  .footer {
+    width: 100%;
+    height: 30rem;
+  }
+  .containerFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .containerCreators {
+    margin-top: 2rem;
+  }
+  .containerCopyright {
+    margin-top: 2rem;
+  }
+}
